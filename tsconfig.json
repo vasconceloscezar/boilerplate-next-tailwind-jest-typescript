@@ -23,6 +23,6 @@
       "@/lib/*": ["./src/lib/*"],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/index.jsx", ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/index.jsx", "src/setupTests.js", "src/hooks/tests/useScreenWidth.test.js", "src/hooks/tests/useFetch.test.js", "src/hooks/tests/useIsMobile.test.js", ],
   "exclude": ["node_modules"]
 }
