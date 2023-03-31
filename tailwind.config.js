@@ -3,14 +3,6 @@ module.exports = {
   darkMode: "media", // or 'media' or 'class'
   theme: {
     extend: {
-      fontFamily: {
-        cinzel: ["Cinzel", "serif"],
-        "lemon-milk": ["Lemon Milk", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"],
-      },
-      backgroundImage: (theme) => ({
-        hero: "url('/assets/images/hero-bg.webp')",
-      }),
       backgroundColor: {
         primary: "#700B2D",
         secondary: "#686868",
